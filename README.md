@@ -22,3 +22,7 @@ The index name is used to reference the starting point in every directory
 NPM Scripts
 "start": "nodemon --exec babel-node server.js --ignore public/"  -  to run the node server
 "dev": "webpack -wd"  -  to transform the source files to a bundled file for the browser
+
+
+local vs global
+babel-node was installed locally, not globally, however, it is available under ./node_modules/.bin/babel-node
